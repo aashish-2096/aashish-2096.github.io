@@ -1,9 +1,104 @@
 .jumbotron{
-  background-color:#00cccc;
+  background-color:#ffffff;
   width:auto;
   height:1000px;
+  padding-top: 50px;
 }
 
+h1{
+  font-size: 85px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: 1px solid #4CAF50;
+}
+
+//buttons
+.btn {
+  border: 1px solid black;
+  background-color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.success {
+  border-color: #4CAF50;
+  color:#4CAF50 !important;
+  background-color:white;
+}
+.success:hover {
+  background-color: #4CAF50;
+  color: white !important;
+}
+
+#box-container {
+    height: 400px;
+    width:400px;
+    align-content: center;
+    margin-left: 700px;
+    display:inline-flex;
+    margin-top:200px;
+}
+  .fa {
+  padding: 20px;
+  font-size: 40px !important;
+  width: 70px;
+  height:70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 3px;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+//about me
+
+#aboutme{
+  border-top: 1px solid #4CAF50;
+}
+
+
+.container-fluid{
+  margin-left: 20px;
+  margin-right: 20px;
+  width: auto;
+}
 ul.timeline {
     list-style-type: none;
     position: relative;
@@ -36,7 +131,6 @@ ul.timeline > li:before {
 }
 
 //horizontal cards
-
 body {
     background-color: #FFFFFF;
 }
