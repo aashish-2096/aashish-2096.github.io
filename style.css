@@ -228,3 +228,24 @@ q {font-style: italic;}
 a{
   color:#4CAF50;
 }
+
+ul.nav-item:hover{
+  color: black;
+}
+
+.abc{
+  width: 100%;
+
+}
+
+.skills {
+  text-align: right;
+  padding: 2px;
+  color: white;
+}
+
+.clan {width: 70%; background-color:#2f6a31;}
+.python {width: 60%; background-color:#3e8e41;}
+.java {width: 45%; background-color: #4caf50;}
+.rlan {width: 30%; background-color: #95d097;}
+.frameworks {width: 40%; background-color:#5fb962;}

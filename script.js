@@ -1,21 +1,21 @@
-var ctx = document.getElementById("myChart1").getContext('2d');
-var myChart = new Chart(ctx, {
-    type:'bar',
-    data: {
-        labels: ["C/C++", "Python","Core Java"," R " ,"Frameworks"],
-        datasets: [{
-            label: '# of Votes',
-            data: [35,15,20,15,10],
-            backgroundColor: [
-                'rgba(255, 99, 132)',
-                'rgba(54, 162, 235)',
-                'rgba(255, 206, 86)',
-                'rgba(75, 192, 192)',
-                'rgba(153, 102, 255)',
-            ],
-        }]
-    }
-});
+// var ctx = document.getElementById("myChart1").getContext('2d');
+// var myChart = new Chart(ctx, {
+//     type:'bar',
+//     data: {
+//         labels: ["C/C++", "Python","Core Java"," R " ,"Frameworks"],
+//         datasets: [{
+//             label: '# of Votes',
+//             data: [35,15,20,15,10],
+//             backgroundColor: [
+//                 'rgba(255, 99, 132)',
+//                 'rgba(54, 162, 235)',
+//                 'rgba(255, 206, 86)',
+//                 'rgba(75, 192, 192)',
+//                 'rgba(153, 102, 255)',
+//             ],
+//         }]
+//     }
+// });
 
 var ctxs = document.getElementById("myChart2").getContext('2d');
 var myCharts = new Chart(ctxs, {
@@ -25,13 +25,21 @@ var myCharts = new Chart(ctxs, {
         datasets: [{
             label: '# of Votes',
             data: [30, 13, 20,10,20,7],
+            // backgroundColor: [
+            //     'rgba(255, 99, 132)',
+            //     'rgba(54, 162, 235)',
+            //     'rgba(255, 206, 86)',
+            //     'rgba(75, 192, 192)',
+            //     'rgba(153, 102, 255)',
+            //     'rgba(255, 159, 64)'
+            // ],
             backgroundColor: [
-                'rgba(255, 99, 132)',
-                'rgba(54, 162, 235)',
-                'rgba(255, 206, 86)',
-                'rgba(75, 192, 192)',
-                'rgba(153, 102, 255)',
-                'rgba(255, 159, 64)'
+                'rgb(47, 106, 49)',
+                'rgb(62, 142, 65)',
+                'rgb(78, 177, 81)',
+                'rgb(113, 193, 116)',
+                'rgb(149, 208, 151)',
+                'rgb(184, 224, 185)'
             ],
 
         }]
