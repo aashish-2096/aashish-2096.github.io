@@ -45,6 +45,33 @@ var myCharts = new Chart(ctxs, {
         }]
     }
 });
+var ctx = document.getElementById("myChart").getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ["C/C++", "Python", "Core Java", "R", "Frameworks"],
+        datasets: [{
+            label: 'Self Rating',
+            data: [14, 12, 9, 6, 8],
+              backgroundColor: [
+                  'rgb(47, 106, 49)',
+                  'rgb(62, 142, 65)',
+                  'rgb(78, 177, 81)',
+                  'rgb(149, 208, 151)',
+                  'rgb(113, 193, 116)'
+              ],
+        }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        }
+    }
+});
 
 var slideIndex = 1;
 showSlides(slideIndex);
