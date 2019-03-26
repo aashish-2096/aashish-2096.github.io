@@ -309,6 +309,12 @@ ul.nav-item:hover{
     height:20vh; 
     width:20vw
   }
+
+  h1{
+    font-size: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
 }
 
 
