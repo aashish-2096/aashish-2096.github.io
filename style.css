@@ -4,6 +4,9 @@
   height:1000px;
   padding-top: 50px;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 h1{
   font-size: 95px;
@@ -17,12 +20,14 @@ p{
   font-family: 'Encode Sans Condensed', sans-serif;
   font-size: 20px;
 }
+
 h4
 {
   font-family: 'Encode Sans Condensed', sans-serif;
   font-weight:bold;
-  font-size:30px;
+  
 }
+
 h2{
 text-transform: uppercase;
 font-family: 'PT Serif', serif;
@@ -103,8 +108,15 @@ h3{
   color: white;
 }
 
+img{
+  width:350px;
+  height:350px;
+  border-radius:50%;
+  margin-left:250px;
+}
 
-//about me
+
+/**/about me
 
 #aboutme{
   border-top: 1px solid #4CAF50;
@@ -149,7 +161,7 @@ ul.timeline > li:before {
     z-index: 400;
 }
 
-//horizontal cards
+/* horizontal cards */
 body {
     background-color: #FFFFFF;
 }
@@ -162,6 +174,7 @@ body {
 	color:#4CAF50;
   font-family: 'Encode Sans Condensed', sans-serif;
   font-weight: bold;
+  font-size: 20px;
 
 }
 
@@ -279,3 +292,27 @@ ul.nav-item:hover{
 .java {width: 45%; background-color: #4caf50;}
 .rlan {width: 30%; background-color: #95d097;}
 .frameworks {width: 40%; background-color:#5fb962;}
+
+
+
+@media screen and (max-width: 800px) {
+  
+   #box-container {
+    margin-left: auto;
+  }
+  img{
+    margin: 50px;
+    padding: 20px;
+
+  }
+  .chart-container{
+    height:20vh; 
+    width:20vw
+  }
+}
+
+
+.chart-container {
+  position: relative;
+  margin: auto;
+}

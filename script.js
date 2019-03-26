@@ -1,4 +1,3 @@
-
 var ctx = document.getElementById("myChart").getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
@@ -17,6 +16,7 @@ var myChart = new Chart(ctx, {
         }]
     },
     options: {
+      maintainAspectRatio: false,
         scales: {
             yAxes: [{
                 ticks: {
@@ -27,10 +27,12 @@ var myChart = new Chart(ctx, {
     }
 });
 
-
 var ctxs = document.getElementById("myChart2").getContext('2d');
 var myCharts = new Chart(ctxs, {
     type: 'doughnut',
+    options: {
+      maintainAspectRatio: false
+    },
     data: {
         labels: ["Machine Learning", "Network Security", "Data Structure & Algorithms", "Application Development", "Research","Blockchain"],
         datasets: [{
@@ -74,3 +76,4 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
